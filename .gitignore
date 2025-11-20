@@ -1,0 +1,39 @@
+# Backups
+*.backup
+*.backup_*
+*.bak
+*.bak*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+
+# Node
+node_modules/
+.npm
+
+# Outputs
+backend/outputs/*.docx
+backend/outputs/*.json
+backend/outputs/*.pdf
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
